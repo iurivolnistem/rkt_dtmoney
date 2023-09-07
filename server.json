@@ -1,20 +1,28 @@
 {
-    "transactions":[
-        {
-            "id": 1,
-            "description": "Desenvolvimento de Site",
-            "type": "income",
-            "category": "Venda",
-            "amount": 14000,
-            "createdAt": "2023-09-06T21:38:27.897Z"
-        },
-        {
-            "id": 2,
-            "description": "Comida do cachorro",
-            "type": "outcome",
-            "category": "Despesas",
-            "amount": 80,
-            "createdAt": "2023-09-06T21:28:27.897Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-09-06T21:38:27.897Z"
+    },
+    {
+      "id": 2,
+      "description": "Comida do cachorro",
+      "type": "outcome",
+      "category": "Despesas",
+      "price": 80,
+      "createdAt": "2023-09-06T21:28:27.897Z"
+    },
+    {
+      "description": "Cabeleleiro",
+      "price": 60,
+      "category": "Beleza",
+      "type": "outcome",
+      "createdAt": "2023-09-07T16:36:13.892Z",
+      "id": 3
+    }
+  ]
 }
